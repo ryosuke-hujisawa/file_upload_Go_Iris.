@@ -1,0 +1,25 @@
+<!-- /views/upload.html -->
+<html>
+
+<head>
+    <title>DropzoneJS Uploader</title>
+
+    <!-- 1 -->
+    <link href="/public/css/dropzone.css" type="text/css" rel="stylesheet" />
+
+    <!-- 2 -->
+    <script src="/public/js/dropzone.js"></script>
+</head>
+
+<body>
+
+    <!-- 3 -->
+    <form action="/upload" method="POST" class="dropzone" id="my-dropzone">
+        <div class="fallback">
+            <input name="file" type="file" multiple />
+            <input type="submit" value="Upload" />
+        </div>
+    </form>
+</body>
+
+</html>
